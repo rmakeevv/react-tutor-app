@@ -1,0 +1,21 @@
+.true {
+    background: #87f587;
+}
+
+.false {
+    background: coral;
+}
+
+.question-card {
+    border: 1px solid rgb(137, 135, 135);
+    border-radius: 8px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: #f9f6f6;
+}
+
+input[type=radio] {
+    background: #87f587;
+}

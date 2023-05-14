@@ -1,11 +1,4 @@
-interface Question {
-    id: number,
-    title: string,
-    answer: string,
-    options: Array<string>
-}
-
-export const questions: Array<Question> = [
+const questions = [
     {
         id:1,
         title: 'Отношение прилежащего катета в противолежащему',
@@ -14,9 +7,9 @@ export const questions: Array<Question> = [
     },
     {
         id:2,
-        title: 'Отношение прилежащего катета в противолежащему',
-        answer: 'косинус',
-        options: ["косинус", "синус", "тангенс", "котангенс"]
+        title: 'Какой математической операции противоположно сложение?',
+        answer: 'вычетание',
+        options: ["вычетание", "умножение", "деление", "деление на ноль"]
     },
     {
         id:3,
@@ -25,3 +18,5 @@ export const questions: Array<Question> = [
         options: ["косинус", "синус", "тангенс", "котангенс"]
     },
 ]
+
+module.exports = questions

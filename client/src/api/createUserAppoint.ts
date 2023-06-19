@@ -4,7 +4,7 @@ export const createUserAppoint = async ({request}: any) => {
     const email = data.get('email')
     const phone = data.get('phone')
     const dataForApiRequest = {userName, email, phone}
-    await fetch('http://localhost:5000/appoints', {
+    await fetch('http://51.250.88.158:5000/appoints', {
         method: 'POST',
         headers: {
             "Content-type": 'application/json;charset=utf-8'
